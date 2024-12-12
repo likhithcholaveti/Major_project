@@ -3,7 +3,7 @@ import socket
 from threading import Thread 
 from socketserver import ThreadingMixIn
 
-running = False
+running = True
 
 def startApplicationServer():
     class ClientThread(Thread): 
